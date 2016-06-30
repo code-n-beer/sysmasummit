@@ -1,0 +1,26 @@
+body {
+  margin: 40px auto;
+  max-width: 650px;
+  line-height: 1.6;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #FAFAFA;
+  background: #212121;
+  padding: 0 10px;
+  text-align: center;
+}
+
+h1,h2,h3 {
+  line-height:1.2
+}
+
+footer {
+  font-size: 10px;
+}
+
+.vertical-center {
+	height: 300px;
+	position: relative;
+	top: 50%;
+	transform: 			translateY(-50%);
+}
