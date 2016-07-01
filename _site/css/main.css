@@ -11,7 +11,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 18px/1.5 sans-serif;
+  font: 400 18px/1.5 "Source Code Pro";
   color: #EEEEEE;
   background-color: #212121;
   -webkit-text-size-adjust: 100%;
@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 .highlight {
-  margin-bottom: 15px; }
+  margin-bottom: 9px; }
 
 /**
  * Images
@@ -50,7 +50,7 @@ figcaption {
  * Lists
  */
 ul, ol {
-  margin-left: 30px; }
+  margin-left: 18px; }
 
 li > ul,
 li > ol {
@@ -80,7 +80,7 @@ a {
 blockquote {
   color: #EEEEEE;
   border-left: 4px solid white;
-  padding-left: 15px;
+  padding-left: 9px;
   font-size: 18px;
   letter-spacing: -1px;
   font-style: italic; }
@@ -112,18 +112,18 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(800px - (30px * 2));
-  max-width: calc(800px - (30px * 2));
+  max-width: -webkit-calc(800px - (18px * 2));
+  max-width: calc(800px - (18px * 2));
   margin-right: auto;
   margin-left: auto;
-  padding-right: 30px;
-  padding-left: 30px; }
+  padding-right: 18px;
+  padding-left: 18px; }
   @media screen and (max-width: 800px) {
     .wrapper {
-      max-width: -webkit-calc(800px - (30px));
-      max-width: calc(800px - (30px));
-      padding-right: 15px;
-      padding-left: 15px; } }
+      max-width: -webkit-calc(800px - (18px));
+      max-width: calc(800px - (18px));
+      padding-right: 9px;
+      padding-left: 9px; } }
 
 /**
  * Clearfix
@@ -176,7 +176,7 @@ pre {
     .site-nav {
       position: absolute;
       top: 9px;
-      right: 15px;
+      right: 9px;
       background-color: #212121;
       border: 1px solid white;
       border-radius: 5px;
@@ -211,7 +211,7 @@ pre {
  * Site footer
  */
 .site-footer {
-  padding: 30px 0;
+  padding: 18px 0;
   position: fixed;
   height: 50px;
   bottom: 0px;
@@ -221,7 +221,7 @@ pre {
 
 .footer-heading {
   font-size: 18px;
-  margin-bottom: 15px; }
+  margin-bottom: 9px; }
 
 .contact-list,
 .social-media-list {
@@ -231,44 +231,44 @@ pre {
 .footer-col-wrapper {
   font-size: 15px;
   color: #EEEEEE;
-  margin-left: -15px; }
+  margin-left: -9px; }
 
 .footer-col {
   float: left;
-  margin-bottom: 15px;
-  padding-left: 15px; }
+  margin-bottom: 9px;
+  padding-left: 9px; }
 
 .footer-col-1 {
-  width: -webkit-calc(35% - (30px / 2));
-  width: calc(35% - (30px / 2)); }
+  width: -webkit-calc(35% - (18px / 2));
+  width: calc(35% - (18px / 2)); }
 
 .footer-col-2 {
-  width: -webkit-calc(20% - (30px / 2));
-  width: calc(20% - (30px / 2)); }
+  width: -webkit-calc(20% - (18px / 2));
+  width: calc(20% - (18px / 2)); }
 
 .footer-col-3 {
-  width: -webkit-calc(45% - (30px / 2));
-  width: calc(45% - (30px / 2)); }
+  width: -webkit-calc(45% - (18px / 2));
+  width: calc(45% - (18px / 2)); }
 
 @media screen and (max-width: 800px) {
   .footer-col-1,
   .footer-col-2 {
-    width: -webkit-calc(50% - (30px / 2));
-    width: calc(50% - (30px / 2)); }
+    width: -webkit-calc(50% - (18px / 2));
+    width: calc(50% - (18px / 2)); }
 
   .footer-col-3 {
-    width: -webkit-calc(100% - (30px / 2));
-    width: calc(100% - (30px / 2)); } }
+    width: -webkit-calc(100% - (18px / 2));
+    width: calc(100% - (18px / 2)); } }
 @media screen and (max-width: 600px) {
   .footer-col {
     float: none;
-    width: -webkit-calc(100% - (30px / 2));
-    width: calc(100% - (30px / 2)); } }
+    width: -webkit-calc(100% - (18px / 2));
+    width: calc(100% - (18px / 2)); } }
 /**
  * Page content
  */
 .page-content {
-  padding: 30px 0; }
+  padding: 18px 0; }
 
 .page-heading {
   font-size: 20px; }
@@ -277,7 +277,7 @@ pre {
   margin-left: 0;
   list-style: none; }
   .post-list > li {
-    margin-bottom: 30px; }
+    margin-bottom: 18px; }
 
 .post-meta {
   font-size: 15.75px;
@@ -291,7 +291,7 @@ pre {
  * Posts
  */
 .post-header {
-  margin-bottom: 30px; }
+  margin-bottom: 18px; }
 
 .post-title {
   font-size: 42px;
@@ -302,7 +302,7 @@ pre {
       font-size: 36px; } }
 
 .post-content {
-  margin-bottom: 30px; }
+  margin-bottom: 18px; }
   .post-content h2 {
     font-size: 32px; }
     @media screen and (max-width: 800px) {

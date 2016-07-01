@@ -8,7 +8,7 @@
 # Site settings
 title: SysmäSummit2016
 email: sysmasummit@gmail.com
-description: "We build the Future." 
+description: "We build the Future."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://sysmasummit.com" # the base hostname & protocol for your site
 twitter_username: sysmasummit
