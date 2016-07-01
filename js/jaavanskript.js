@@ -1,7 +1,3 @@
-function tickets() {
-  document.getElementById("tickets").innerHTML = "All tickets gone, sorry!";
-}
-
 !function(d,s,id) {
   var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
 
