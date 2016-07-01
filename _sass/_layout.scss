@@ -10,11 +10,15 @@
 }
 
 .site-title {
-    font-size: 50px;
+    font-size: 5em;
     font-weight: 300;
     line-height: 60px;
     margin-bottom: 0;
     float: left;
+
+    @include media-query($on-palm) {
+      font-size: 2em;
+    }
 }
 
 .site-nav {
