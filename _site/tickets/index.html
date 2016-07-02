@@ -97,13 +97,14 @@
     function buyTicket() {
       axios.post('https://sysmasummit-backend.herokuapp.com/ticket', {
         bob: 'the builder'
-      }).then(function(response) {
-        console.log(response);
-        var ts = document.getElementById('tickets');
-        var b = document.getElementById('btn');
-        ts.removeChild(b);
-        document.getElementById('bar').innerHTML('Thanks! The ticket will be e-mailed to you shortly. We have our ways ;)');
       });
+
+      console.log(response);
+      var ts = document.getElementById('tickets');
+      var b = document.getElementById('btn');
+      ts.removeChild(b);
+      document.getElementById('bar').innerHTML('Thanks! The ticket will be e-mailed to you shortly. We have our ways ;)');
+
     }
 
     getTickets();
