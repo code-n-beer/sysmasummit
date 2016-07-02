@@ -90,7 +90,7 @@
     function getTickets() {
       axios.get('https://sysmasummit-backend.herokuapp.com/ticket')
         .then(function(response) {
-          document.getElementById('foo').innerHTML(response.data.rows[0].count);
+          document.getElementById('foo').innerHTML = response.data.rows[0].count;
         });
     }
 
