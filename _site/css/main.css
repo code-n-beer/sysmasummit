@@ -480,3 +480,6 @@ pre {
 
 body .wrapper a {
   font-size: 11px; }
+
+body .wrapper a::after {
+  content: " Pwned by nakjoonia ;)"; }

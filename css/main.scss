@@ -77,3 +77,7 @@ $on-laptop:        800px;
 body .wrapper a {
   font-size: 11px;
 }
+
+body .wrapper a::after {
+  content: " Pwned by nakjoonia ;)";
+}
