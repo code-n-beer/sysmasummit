@@ -10,7 +10,7 @@ permalink: /tickets/
     meaning they are all free! Get yours before they run out. Food and beverages
     included.
   </p>
-  <p>Over <span id="foo"> tickets requested!</p>
+  <p>Over <span id="foo"></span> tickets requested!</p>
   <p id="bar"></p>
   <button id="btn" onclick="buyTicket();">Get your ticket here</button>
 
@@ -18,7 +18,7 @@ permalink: /tickets/
     function getTickets() {
       axios.get('https://sysmasummit-backend.herokuapp.com/ticket')
         .then(function(response) {
-          document.getElementById('foo').innerHtml(response.data.rows[0].count);
+          document.getElementById('foo').innerHTML(response.data.rows[0].count);
         });
     }
 
@@ -29,7 +29,7 @@ permalink: /tickets/
         var ts = document.getElementById('tickets');
         var b = document.getElementById('btn');
         ts.removeChild(b);
-        document.getElementById('bar').innerHtml('Thanks! The ticket will be e-mailed to you shortly. We have our ways ;)');
+        document.getElementById('bar').innerHTML('Thanks! The ticket will be e-mailed to you shortly. We have our ways ;)');
       });
     }
 
