@@ -26,10 +26,11 @@ permalink: /tickets/
       axios.post('https://sysmasummit-backend.herokuapp.com/ticket', {
         bob: 'the builder'
       });
+
       var ts = document.getElementById('tickets');
       var b = document.getElementById('btn');
       ts.removeChild(b);
-      document.getElementById('bar').innerHTML('Thanks! The ticket will be e-mailed to you shortly. We have our ways ;)');
+      document.getElementById('bar').innerHTML = 'Thanks! The ticket will be e-mailed to you shortly. We have our ways ;)';
 
     }
 
