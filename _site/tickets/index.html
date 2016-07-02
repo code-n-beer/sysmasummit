@@ -75,21 +75,37 @@
 <article class="post">
 
   <div class="post-content">
-    <div class="tickets">
+    <div class="tickets" id="tickets">
   <script src="https://npmcdn.com/axios/dist/axios.min.js"></script>
   <h2>SysmaSummit2016 Ticket</h2>
   <p>This year the tickets have been sponsored by CNB-Technologies,
     meaning they are all free! Get yours before they run out. Food and beverages
     included.
   </p>
-  <button onclick="buyTicket();">Get your ticket here</button>
+  <p>Over <span id="foo"> tickets requested!</p>
+  <p id="bar"></p>
+  <button id="btn" onclick="buyTicket();">Get your ticket here</button>
 
   <script>
+    function getTickets() {
+      axios.get('https://sysmasummit-backend.herokuapp.com/ticket')
+        .then(function(response) {
+          document.getElementById('foo').innerHtml(response.rows[0].count);
+        });
+    }
+
     function buyTicket() {
       axios.post('https://sysmasummit-backend.herokuapp.com/ticket', {
         bob: 'the builder'
+      }).then(function(response) {
+        var ts = document.getElementById('tickets');
+        var b = document.getElementById('btn');
+        ts.removeChild(b);
+        document.getElementById('bar').innerHtml('Thanks! The ticket will be e-mailed to you shortly. We have our ways ;)');
       });
     }
+
+    getTickets();
   </script>
 </div>
 
