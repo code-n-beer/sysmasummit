@@ -2,6 +2,8 @@
 
   <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
+  {{ site.subtitle }}
+  
   <nav class="site-nav">
     {% for my_page in site.pages %}
       {% if my_page.title %}
@@ -9,5 +11,7 @@
       {% endif %}
     {% endfor %}
   </nav>
+
+
 
 </header>

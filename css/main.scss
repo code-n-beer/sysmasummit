@@ -6,5 +6,68 @@
 body {
   font-family: "Source Code Pro";
   font-size: 18px;
-  
+  line-height: 1.6;
+  margin: 40px auto;
+  max-width: 650px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+}
+
+.page-content {
+  padding: 1em 0;
+}
+
+.post-content {
+  padding: 1em 0;
+}
+
+.site-header {
+  text-align: center;
+}
+
+.site-title {
+  font-size: 5rem;
+}
+
+.rss-subscribe {
+  text-align: center;
+  font-size: 12px;
+}
+
+.site-footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  font-size: 10px;
+}
+
+.home {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.summit-date {
+  text-align: center;
+}
+
+.post-list {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  width: 100%;
+}
+
+.post-meta {
+  font-size: 12px;
+  margin-top: -1em;
 }
