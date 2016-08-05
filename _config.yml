@@ -6,13 +6,15 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: SysmäSummit2016
+title: SysmäSummit
 email: sysmasummit@gmail.com
 description: "We build the Future."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://sysmasummit.com" # the base hostname & protocol for your site
 twitter_username: sysmasummit
 github_username:  sysmasummit
+
+subtitle: Fall 2016
 
 # Build settings
 markdown: kramdown
